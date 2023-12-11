@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="BilingualHTMLControls" constructor="BilingualHTMLControl" version="0.0.1" display-name-key="BilingualHTMLControl" description-key="SampleControl description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="EnglishTextPart1" display-name-key="Text Part 1" description-key="Part 1 of the English text to be displayed" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="EnglishTextPart2" display-name-key="Text Part 1" description-key="Part 2 of the English text to be displayed" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="EnglishTextPart3" display-name-key="Text Part 1" description-key="Part 3 of the English text to be displayed" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="FrenchTextPart1" display-name-key="Text Part 1" description-key="Part 1 of the French text to be displayed" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="FrenchTextPart2" display-name-key="Text Part 1" description-key="Part 2 of the French text to be displayed" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="FrenchTextPart3" display-name-key="Text Part 1" description-key="Part 3 of the French text to be displayed" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="TextStyle" display-name-key="Text Style" description-key="CSS for text style" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="ContainerStyle" display-name-key="Div Container Style" description-key="DivContainerStyle" of-type="SingleLine.Text" usage="input" required="false" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
